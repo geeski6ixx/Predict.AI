@@ -9,7 +9,7 @@ def home():
     return {
         "message": "PredictAI API is running!",
         "status": "success"
-    }
+   }
 
 
 @app.get("/health")
